@@ -1,0 +1,38 @@
+/* src/App.css */
+.App {
+  text-align: center;
+}
+
+.accordion {
+  border: 1px solid #ddd;
+  margin-bottom: 10px;
+  cursor: pointer;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.accordion-header {
+  padding: 10px;
+  background-color: #f1f1f1;
+  border-bottom: 1px solid #ddd;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.accordion-content {
+  padding: 10px;
+}
+
+.accordion-content ul {
+  list-style: none; /* Hide bullet points */
+  padding: 0;
+}
+
+.accordion-content li {
+  margin-bottom: 8px; /* Add some space between terms and translations */
+}
+
+.accordion-header:hover {
+  background-color: #ddd;
+}
